@@ -21,7 +21,7 @@ ul.topnav li a {
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 1.2em;
 }
 
 /* Change background color of links on hover */
@@ -48,18 +48,17 @@ ul.topnav li.icon {display: none;}
     position: absolute;
     right: 0;
     top: 0;
+    }
   
-
   ul.topnav.responsive li {
     float: none;
     display: inline;
-  
+      }
 
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
-  
+      }
 
-}
-
-
+    }
+    }

@@ -1,11 +1,42 @@
+/* RGB color palette*/
+/*
+$color1: rgba(234, 240, 206, 1);
+$color2: rgba(192, 197, 193, 1);
+$color3: rgba(125, 132, 145, 1);
+$color4: rgba(87, 75, 96, 1);
+$color5: rgba(63, 51, 77, 1);
+*/
+
+/*
+font-family: 'DM Sans', sans-serif;
+font-family: 'Fahkwang', sans-serif;
+font-family: 'Cookie', cursive;
+*/
+
+
 html {
-    background-color:#EDE3F2;
-    font-family: Optima, sans-serif;
+    background-color:rgba(87, 75, 96, 1);
+    font-family: 'Fahkwang', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 530px;
+    border: 0;
 }
 
+a:hover{
+    background: rgba(234, 240, 206, 1);
+}
+
+a:active{
+    color:  rgba(87, 75, 96, 1);
+}
 div.wrapper {
-    background-color:#EDE3F2;
+    background-color:rgba(125, 132, 145, 1);
+    background-size: auto;
     overflow:auto;
+    max-height: 100%;
+    
 }
 
 h1>a {
@@ -17,17 +48,36 @@ h2 {
     font-size: 2em;
     }
 
+.subheader{
+    color: rgba(192, 197, 193, 1);
+    text-align: center;
+    margin-top: 20px;
+}
 
 p {
     font-size: 1.2em;
 }
 
 .logo {
-    color:red;
+    color:rgba(63, 51, 77, 1);
     margin-left:1%;
     text-shadow:1px 1px #ccc;
     font-size:1.25em;
 }
+
+.links{
+    padding: 20px;
+    margin: 20px;
+}
+
+/*WEB Cam Page*/
+
+.content {
+    height: 0;
+    margin-right: 10px;
+    padding-right: 100px;
+}
+
 
 /* Embed Responsively Rules! */
 div.embed-container {
@@ -51,10 +101,33 @@ footer {
 	clear:both;
 }
 
+/*INDEX PAGE SYTLES*/
+#index {
+    color: rgba(234, 240, 206, 1);
+    font-family:'Cookie', cursive;
+    font-weight: normal;
+    font-size: 5em;
+    text-align: center;
+   
+}
+
+.subtitle{
+    text-align: center;
+    color:  rgba(234, 240, 206, 1);
+}
+
+.mytitle{
+    text-align: center;
+    color: rgba(63, 51, 77, 1);
+    padding-bottom: 200px;
+}
+
+
+
 /* START RESPONSIVE STYLES */
 
 /* DESKTOP */
-@media all and (min-width:768px) {
+@media all and (min-width:1024px) {
 	
    div.wrapper {
 		width:80%;
@@ -115,7 +188,7 @@ footer {
     }
     
     img.desktop {
-        display:none;
+        		display:none;
            } 
     
     /* Change background color of navigation on selected page */
@@ -140,7 +213,7 @@ footer {
     } 
     
     img.desktop {
-        display:none;
+        		display:none;
     }  
 
 }    
